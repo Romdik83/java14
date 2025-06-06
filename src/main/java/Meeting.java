@@ -10,17 +10,17 @@ public class Meeting extends Task {
         this.time = time;
     }
 
- //   public String getTopic() {
- //       return topic;
- //   }
+    public String getTopic() {
+        return topic;
+    }
 
- //   public String getProject() {
- //       return project;
- //   }
+    public String getProject() {
+        return project;
+   }
 
- //   public String getTime() {
- //       return time;
-  //  }
+    public String getTime() {
+        return time;
+    }
 
     @Override
     public boolean matches(String query) {
